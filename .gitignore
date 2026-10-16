@@ -1,5 +1,6 @@
 # local voice-model setup (re-create with the steps in README.md)
 tools/.venv/
+tools/.uv-python/
 tools/models/
 # wrangler cache
 .wrangler/

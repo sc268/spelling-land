@@ -173,12 +173,15 @@ def main():
         except Exception as e:  # e.g. an over-long line; fall back to plain text
             print("  phoneme path failed, retrying as text:", c["text"][:60], e, flush=True)
             samples, sr = k.create(c["text"], voice=a.voice, speed=speed, lang="en-us")
-        tmp = os.path.join(outdir, c["id"] + ".tmp.mp3")
-        # 60 ms of lead-in silence so no browser clips the first sound
-        subprocess.run(["ffmpeg", "-loglevel", "error", "-y", "-f", "f32le", "-ar", str(sr), "-ac", "1", "-i", "pipe:",
-                        "-af", "adelay=60", "-codec:a", "libmp3lame", "-q:a", "5", tmp],
-                       input=samples.astype("float32").tobytes(), check=True)
-        os.replace(tmp, os.path.join(outdir, c["id"] + ".mp3"))
+        tmp = os.path.join(outdir, c["id"] + f".{os.getpid()}.tmp.mp3")
+        try:
+            # 60 ms of lead-in silence so no browser clips the first sound
+            subprocess.run(["ffmpeg", "-loglevel", "error", "-y", "-f", "f32le", "-ar", str(sr), "-ac", "1", "-i", "pipe:",
+                            "-af", "adelay=60", "-codec:a", "libmp3lame", "-q:a", "5", tmp],
+                           input=samples.astype("float32").tobytes(), check=True)
+            os.replace(tmp, os.path.join(outdir, c["id"] + ".mp3"))
+        except (subprocess.CalledProcessError, OSError) as e:  # skip this clip; a re-run picks it up
+            print("  failed, skipping:", c["text"][:60], e, flush=True)
         if j % 50 == 0 or j == len(todo) - 1:
             el = time.time() - t0
             print(f"  {j + 1}/{len(todo)}  {el / 60:.1f} min  (~{el / (j + 1) * (len(todo) - j - 1) / 60:.0f} min left)", flush=True)
