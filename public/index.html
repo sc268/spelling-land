@@ -7,14 +7,30 @@
   <meta name="description" content="Learn to spell with fun mini-games — from TK and Kindergarten through 5th grade, plus GRE vocabulary. Free, no ads, no login.">
   <meta property="og:title" content="Spelling Land">
   <meta property="og:description" content="Fun spelling games from TK to 5th grade, plus GRE. Listen, type, pop balloons, and collect badges!">
-  <meta name="theme-color" content="#FBC920">
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='24' fill='%23FF3D7A'/><text x='50' y='74' font-size='68' text-anchor='middle' fill='white' font-family='Arial Rounded MT Bold,Arial' font-weight='bold'>S</text></svg>">
+  <meta name="theme-color" content="#CDE9FF">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='24' fill='%237B5CFF'/><text x='50' y='74' font-size='68' text-anchor='middle' fill='white' font-family='Arial Rounded MT Bold,Arial' font-weight='bold'>S</text></svg>">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Andika:wght@400;700&family=Fredoka:wght@500;600;700&family=Nunito:wght@600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css?v=7">
+  <link href="https://fonts.googleapis.com/css2?family=Andika:wght@400;700&family=Baloo+2:wght@600;700;800&family=Nunito:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css?v=8">
 </head>
 <body>
+  <div id="scene" aria-hidden="true">
+    <div class="puff" style="width:150px;height:44px;top:9%;animation-duration:70s;animation-delay:-12s"></div>
+    <div class="puff" style="width:100px;height:30px;top:22%;animation-duration:95s;animation-delay:-60s"></div>
+    <div class="puff" style="width:180px;height:52px;top:36%;animation-duration:120s;animation-delay:-35s"></div>
+    <div class="puff" style="width:90px;height:26px;top:52%;animation-duration:85s;animation-delay:-5s"></div>
+    <span class="twinkle" style="top:8%;left:12%">✦</span><span class="twinkle" style="top:16%;left:82%;animation-delay:-1.2s">✦</span>
+    <span class="twinkle" style="top:30%;left:64%;animation-delay:-2.1s">✧</span><span class="twinkle" style="top:42%;left:6%;animation-delay:-.6s">✧</span>
+    <svg class="hills" viewBox="0 0 1440 260" preserveAspectRatio="none">
+      <path d="M0 120 C240 40 420 60 640 110 C860 160 1080 50 1440 90 L1440 260 L0 260Z" fill="#BDEBC8"/>
+      <path d="M0 170 C200 110 380 130 600 165 C820 200 1100 120 1440 150 L1440 260 L0 260Z" fill="#94DDA8"/>
+      <path d="M0 215 C260 180 520 200 760 220 C1000 240 1220 200 1440 210 L1440 260 L0 260Z" fill="#6FCF8E"/>
+      <g fill="#fff" opacity=".9"><circle cx="180" cy="200" r="5"/><circle cx="420" cy="215" r="4"/><circle cx="980" cy="205" r="5"/><circle cx="1260" cy="190" r="4"/></g>
+      <g fill="#FF8FB1"><circle cx="300" cy="228" r="5"/><circle cx="860" cy="235" r="5"/><circle cx="1120" cy="226" r="4"/></g>
+      <g fill="#FFC83D"><circle cx="560" cy="232" r="4"/><circle cx="1360" cy="230" r="5"/></g>
+    </svg>
+  </div>
   <div id="app"></div>
   <noscript>Spelling Land needs JavaScript turned on.</noscript>
   <script src="words/gtk.js?v=3"></script>
@@ -27,7 +43,7 @@
   <script src="phrases.js?v=3"></script>
   <script src="audio/manifest.js?v=3"></script>
   <script src="audio.js?v=6"></script>
-  <script src="keyboard.js?v=3"></script>
-  <script src="app.js?v=8"></script>
+  <script src="keyboard.js?v=8"></script>
+  <script src="app.js?v=10"></script>
 </body>
 </html>

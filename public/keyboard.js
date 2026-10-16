@@ -1,4 +1,5 @@
-/* On-screen keyboard with finger guide (tap-able on tablets). */
+/* On-screen keyboard (tap-able on tablets). Keys are tinted by finger zone; a finger guide
+   under the keyboard says which finger presses the next key. */
 
 const KB = {
   ROWS: [
@@ -19,6 +20,10 @@ const KB = {
     p: "R5", "'": "R5", Enter: "R5", Backspace: "R5",
     " ": "T",
   },
+  FINGER_NAME: {
+    L5: "left pinky", L4: "left ring finger", L3: "left middle finger", L2: "left pointer finger",
+    T: "thumb", R2: "right pointer finger", R3: "right middle finger", R4: "right ring finger", R5: "right pinky",
+  },
   LABEL: { Backspace: "⌫", Enter: "⏎", " ": "space · hear again" },
   el: null,
   onKey: null,
@@ -27,7 +32,7 @@ const KB = {
     const rows = this.ROWS.map((row, r) => {
       const off = this.OFFSETS[r] ? `<span class="key spacer" style="width:calc(var(--k) * ${this.OFFSETS[r]})"></span>` : "";
       const keys = row.map(k => {
-        const cls = ["key"];
+        const cls = ["key", "z-" + this.FINGER[k]];
         if (k.length === 1 && k !== " ") cls.push("letter");
         if (k === "Backspace" || k === "Enter") cls.push("wide");
         if (k === " ") cls.push("space");
@@ -36,22 +41,21 @@ const KB = {
       }).join("");
       return `<div class="krow">${off}${keys}</div>`;
     }).join("");
-    const finger = (id, h) => `<div class="finger" data-f="${id}" style="height:calc(var(--k) * ${h})"><span class="dot"></span></div>`;
-    const hands = `
-      <div class="hands">
-        <div class="hand left">${finger("L5", 1.2)}${finger("L4", 1.55)}${finger("L3", 1.7)}${finger("L2", 1.55)}<div class="finger thumb" data-f="T" style="height:calc(var(--k) * .85)"><span class="dot"></span></div></div>
-        <div class="hand right"><div class="finger thumb" data-f="T" style="height:calc(var(--k) * .85)"><span class="dot"></span></div>${finger("R2", 1.55)}${finger("R3", 1.7)}${finger("R4", 1.55)}${finger("R5", 1.2)}</div>
+    const dot = id => `<span class="fdot z-${id}" data-f="${id}"></span>`;
+    const guide = `
+      <div class="finger-guide">
+        <span class="fgroup">${dot("L5")}${dot("L4")}${dot("L3")}${dot("L2")}</span>
+        ${dot("T")}
+        <span class="fgroup">${dot("R2")}${dot("R3")}${dot("R4")}${dot("R5")}</span>
+        <span class="flabel" id="fingerLabel">Keys are colored by finger</span>
       </div>`;
-    return `<div class="keyboard">${rows}</div>${hands}`;
+    return `<div class="keyboard">${rows}</div>${guide}`;
   },
 
   mount(container, onKey) {
     container.innerHTML = this.html();
     this.el = container;
     this.onKey = onKey;
-    // the hands use the keyboard's --k size
-    const k = getComputedStyle(container.querySelector(".keyboard")).getPropertyValue("--k");
-    container.querySelector(".hands").style.setProperty("--k", k);
     container.querySelectorAll(".key:not(.spacer)").forEach(b => {
       b.addEventListener("pointerdown", e => {
         e.preventDefault();
@@ -69,12 +73,14 @@ const KB = {
   setNext(k) {
     if (!this.el) return;
     this.el.querySelectorAll(".key.next").forEach(b => b.classList.remove("next"));
-    this.el.querySelectorAll(".finger.on").forEach(f => f.classList.remove("on"));
-    if (!k) return;
+    this.el.querySelectorAll(".fdot.on").forEach(f => f.classList.remove("on"));
+    const label = this.el.querySelector("#fingerLabel");
+    if (!k) { if (label) label.textContent = "Keys are colored by finger"; return; }
     const b = this.keyEl(k);
     if (b) b.classList.add("next");
     const f = this.FINGER[k];
-    if (f) this.el.querySelectorAll(`.finger[data-f="${f}"]`).forEach(x => x.classList.add("on"));
+    if (f) this.el.querySelectorAll(`.fdot[data-f="${f}"]`).forEach(x => x.classList.add("on"));
+    if (label && f) label.innerHTML = `Use your <b>${this.FINGER_NAME[f]}</b>`;
   },
 
   flash(k, ok) {

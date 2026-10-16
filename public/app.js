@@ -14,15 +14,15 @@ const starsHTML = (n, max = 3) => Array.from({ length: max }, (_, i) => `<span c
 const GRADES = ["tk", "k", "2", "3", "4", "5", "gre"].filter(g => window.SPELLING_DATA[g]);
 const DATA = window.SPELLING_DATA;
 const WORLD = {
-  tk: { color: "#FF8A1F", light: "#FFEEDB", emoji: "🧸" },
-  k: { color: "#F25F5C", light: "#FFE5E3", emoji: "🌈" },
-  2: { color: "#FF3D7A", light: "#FFE6EF", emoji: "🍭" },
-  3: { color: "#2FB5F0", light: "#DDF5FF", emoji: "🐠" },
-  4: { color: "#2DBF95", light: "#DDF8EE", emoji: "🐯" },
-  5: { color: "#8E62F0", light: "#ECE3FF", emoji: "🚀" },
-  gre: { color: "#3A4BA8", light: "#E3E7FA", emoji: "🎓" },
+  tk: { color: "#FF8A3D", c2: "#FFB45C", light: "#FFF1E3", emoji: "🧸" },
+  k: { color: "#FF4F7B", c2: "#FF8FA8", light: "#FFEAF0", emoji: "🌈" },
+  2: { color: "#C86BFA", c2: "#FF8FD8", light: "#F7EAFF", emoji: "🍭" },
+  3: { color: "#3D8BFF", c2: "#5FD0FF", light: "#E4F4FF", emoji: "🐠" },
+  4: { color: "#22B07D", c2: "#6BE3A4", light: "#E3F8EE", emoji: "🐯" },
+  5: { color: "#5B4BDB", c2: "#9C8CFF", light: "#ECE9FF", emoji: "🚀" },
+  gre: { color: "#2E3A87", c2: "#5C6BC0", light: "#E7EAF8", emoji: "🎓" },
 };
-const TILE_COLORS = ["#FF3D7A", "#48D4AE", "#40C8FF", "#FF9AD5", "#3797FF", "#FF8A80", "#C59AFF", "#FFB020"];
+const TILE_COLORS = ["#FF5C8A", "#FF9A3D", "#FFC83D", "#2EC27E", "#4DB6FF", "#7B5CFF", "#FF8FB1", "#39C5BB"];
 
 const GAMES = [
   { id: "learn", name: "Look & Learn", icon: "📖", color: "#48D4AE", desc: "See it, hear it, type it — then type it again from memory." },
@@ -156,7 +156,7 @@ const BADGES = [
   { id: "g3", icon: "🐠", name: "Grade 3 Hero", desc: "Pass every Grade 3 Spelling Bee", bg: "#B5E9FF" },
   { id: "g4", icon: "🐯", name: "Grade 4 Hero", desc: "Pass every Grade 4 Spelling Bee", bg: "#B8F0DC" },
   { id: "g5", icon: "🚀", name: "Grade 5 Hero", desc: "Pass every Grade 5 Spelling Bee", bg: "#D9C8FF" },
-  { id: "ggre", icon: "🎓", name: "GRE Scholar", desc: "Pass every GRE Spelling Bee", bg: "#B9C3FF" },
+  { id: "ggre", icon: "🎓", name: "GRE Scholar", desc: "Pass every GRE Word Recall", bg: "#B9C3FF" },
   { id: "days3", icon: "📅", name: "Practice Pal", desc: "Practice on 3 different days", bg: "#FFD6A5" },
   { id: "days7", icon: "🏅", name: "Week of Words", desc: "Practice on 7 different days", bg: "#FFC75F" },
   { id: "days30", icon: "🏆", name: "Spelling Champion", desc: "Practice on 30 different days", bg: "#FFB020" },
@@ -268,16 +268,35 @@ document.body.addEventListener("click", e => {
 });
 
 /* ---------------- shared UI bits ---------------- */
-const HAND_SVG = `<svg class="hand-svg" viewBox="0 0 200 230" aria-hidden="true">
-  <rect x="18" y="0" width="30" height="130" rx="15"/><rect x="58" y="0" width="30" height="140" rx="15"/>
-  <rect x="98" y="2" width="30" height="138" rx="15"/><rect x="138" y="12" width="30" height="128" rx="15"/>
-  <path d="M10 110 h160 l20 -30 a16 16 0 0 1 22 22 l-40 70 q-14 40 -30 58 h-110 q-24 -30 -26 -80 z" transform="translate(-6,0)"/>
+// Ollie the owl — the Spelling Land mascot (original drawing)
+const OWL_SVG = (cls = "owl-svg") => `<svg class="${cls}" viewBox="0 0 200 210" aria-hidden="true">
+  <ellipse cx="100" cy="198" rx="58" ry="9" fill="rgba(59,47,74,.14)"/>
+  <path d="M60 58 L48 20 L86 44Z" fill="#7B5CFF"/><path d="M140 58 L152 20 L114 44Z" fill="#7B5CFF"/>
+  <path d="M38 118 C38 60 68 34 100 34 C132 34 162 60 162 118 C162 168 136 192 100 192 C64 192 38 168 38 118Z" fill="#8C6CFF"/>
+  <path d="M40 120 C22 128 22 160 46 166 C50 150 48 134 40 120Z" fill="#6E4FE6"/>
+  <path d="M160 120 C178 128 178 160 154 166 C150 150 152 134 160 120Z" fill="#6E4FE6"/>
+  <ellipse cx="100" cy="142" rx="40" ry="42" fill="#FFF1D6"/>
+  <path d="M84 132 q6 6 12 0 M104 132 q6 6 12 0 M94 148 q6 6 12 0 M84 162 q6 6 12 0 M104 162 q6 6 12 0" stroke="#F2C98E" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <g class="owl-eyes">
+    <circle cx="74" cy="92" r="25" fill="#fff"/><circle cx="126" cy="92" r="25" fill="#fff"/>
+    <circle cx="78" cy="95" r="12" fill="#3B2F4A"/><circle cx="122" cy="95" r="12" fill="#3B2F4A"/>
+    <circle cx="82" cy="90" r="4.5" fill="#fff"/><circle cx="126" cy="90" r="4.5" fill="#fff"/>
+  </g>
+  <path d="M91 112 L109 112 L100 126Z" fill="#FFB020" stroke="#F09A00" stroke-width="2" stroke-linejoin="round"/>
+  <ellipse cx="56" cy="116" rx="9" ry="6" fill="#FF8FB1" opacity=".75"/><ellipse cx="144" cy="116" rx="9" ry="6" fill="#FF8FB1" opacity=".75"/>
+  <path d="M82 190 l-6 10 M90 190 l0 11 M98 190 l6 10 M110 190 l-6 10 M118 190 l0 11 M126 190 l6 10" stroke="#FFB020" stroke-width="5" stroke-linecap="round"/>
+  <g transform="rotate(28 166 150)"><rect x="159" y="104" width="15" height="62" rx="3" fill="#FFC83D"/><rect x="159" y="100" width="15" height="10" rx="3" fill="#FF8FB1"/><path d="M159 166 L174 166 L166.5 184Z" fill="#F5D7A8"/><path d="M163.5 177 L169.5 177 L166.5 184Z" fill="#3B2F4A"/></g>
 </svg>`;
 
+const WORDMARK_COLORS = ["#FF5C8A", "#FF9A3D", "#FFC83D", "#2EC27E", "#4DB6FF", "#7B5CFF"];
 function logoHTML() {
-  const row = (word, start) => `<div class="tile-row">${[...word].map((ch, i) =>
-    `<div class="tile" data-letter="${ch.toLowerCase()}" style="background:${TILE_COLORS[(start + i) % TILE_COLORS.length]};animation-delay:${(start + i) * 0.06}s">${ch}</div>`).join("")}</div>`;
-  return `<div class="logo">${HAND_SVG}<div class="logo-words">${row("SPELLING", 0)}${row("LAND", 3)}<div class="logo-pill">SPELL · PLAY · LEARN</div></div>${HAND_SVG.replace('class="hand-svg"', 'class="hand-svg right"')}</div>`;
+  let n = 0;
+  const line = (word, cls) => `<div class="wm-line ${cls}">${[...word].map(ch =>
+    `<span class="wm-letter" data-letter="${ch.toLowerCase()}" style="color:${WORDMARK_COLORS[n % WORDMARK_COLORS.length]};animation-delay:${(n++) * 0.07}s">${ch}</span>`).join("")}</div>`;
+  return `<div class="logo2">
+    <div class="logo-owl">${OWL_SVG()}</div>
+    <div class="wordmark">${line("Spelling", "")}${line("Land", "land")}<div class="ribbon"><span>spell · play · grow</span></div></div>
+  </div>`;
 }
 
 function topbarHTML(opts = {}) {
@@ -292,7 +311,7 @@ function topbarHTML(opts = {}) {
 }
 
 function mascot(text) {
-  return `<div class="mascot"><div class="owl">🦉</div><div class="bubble">${text}</div></div>`;
+  return `<div class="mascot"><div class="owl">${OWL_SVG("owl-mini")}</div><div class="bubble">${text}</div></div>`;
 }
 
 function praise(text) {
@@ -375,8 +394,8 @@ SCREENS.title = () => {
       <a class="credit" href="https://linkedin.com/in/sc268" target="_blank" rel="noopener">made by SC</a>
     </div>`;
   keyHandler = k => {
-    $$(".tile").forEach(t => {
-      if (t.dataset.letter === k) { t.style.animation = "none"; void t.offsetWidth; t.style.animation = "bounce .5s ease"; }
+    $$(".wm-letter").forEach(t => {
+      if (t.dataset.letter === k) { t.style.animation = "none"; void t.offsetWidth; t.style.animation = "hopLetter .5s ease"; }
     });
     if (/^[a-z]$/.test(k)) Sound.letter(k.charCodeAt(0) - 97);
     if (k === "Enter" && P()) { Sound.click(); go("home"); }
@@ -388,7 +407,7 @@ SCREENS.home = () => {
   if (!p) return go("title");
   const worlds = GRADES.map(g => {
     const st = gradeStats(p, g), w = WORLD[g];
-    return `<div class="world" data-act="toGrade" data-g="${g}" style="background:${w.color}">
+    return `<div class="world" data-act="toGrade" data-g="${g}" style="background:linear-gradient(140deg, ${w.c2}, ${w.color})">
       <div class="wemoji">${w.emoji}</div>
       <div class="wgrade">${esc(levelLabel(g))}</div>
       <div class="wtheme">${g === "tk" ? "Transitional Kindergarten · " : ""}${esc(DATA[g].theme)}${p.grade === g ? " · your level" : ""}</div>
@@ -700,7 +719,7 @@ function renderPips() {
   if (!el) return;
   el.innerHTML = G.items.map((_, i) => {
     const r = G.results[i];
-    return `<span class="${r ? (r.ok ? "ok" : "miss") : i === G.idx ? "now" : ""}"></span>`;
+    return `<span class="${r ? (r.ok ? "ok" : "miss") : i === G.idx ? "now" : ""}">★</span>`;
   }).join("");
   const pill = $("#scorePill");
   if (G.mode === "balloon") pill.innerHTML = `<span class="hearts">${"❤️".repeat(G.lives)}${"🤍".repeat(3 - G.lives)}</span> ${G.score}`;
