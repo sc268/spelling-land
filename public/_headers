@@ -1,0 +1,4 @@
+/audio/af_heart/*
+  Cache-Control: public, max-age=31536000, immutable
+/audio/af_sky/*
+  Cache-Control: public, max-age=31536000, immutable

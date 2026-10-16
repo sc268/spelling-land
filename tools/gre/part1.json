@@ -1,0 +1,1022 @@
+[
+  {
+    "n": 1,
+    "title": "Praise & Acclaim",
+    "icon": "👏",
+    "rule": "These words express strong approval, from public honors (accolade, plaudit, lionize) to elaborate tributes in speech or writing (encomium, panegyric, paean, eulogize). The GRE usually hides them behind contrast signals such as 'far from,' 'less X than Y,' or 'despite,' so decide first whether the context calls for praise or its opposite, and watch for praise so excessive that it really signals bias or flattery.",
+    "tip": "Laud, laudatory, and applaud all come from Latin laus, 'praise,' while plaudit and applause share plaudere, 'to clap.'",
+    "examples": ["la[u]d", "ex[tol]", "pan[egy]ric"],
+    "words": [
+      {
+        "w": "la[u]d",
+        "pos": "verb",
+        "m": "to praise highly, especially in public",
+        "s": "Critics who once dismissed the novelist as a mere stylist now laud her for the moral seriousness that underlies even her most playful fiction.",
+        "syn": ["extol", "acclaim", "commend"],
+        "ant": ["censure", "disparage"],
+        "root": "Latin laus, laudis, 'praise' (as in applaud)"
+      },
+      {
+        "w": "ex[tol]",
+        "pos": "verb",
+        "m": "to praise enthusiastically and at length",
+        "s": "Though the brochure continues to extol the resort's pristine beaches, recent visitors report that the shoreline is now littered with construction debris.",
+        "syn": ["laud", "exalt", "glorify"],
+        "ant": ["belittle", "decry"],
+        "root": "Latin extollere, 'to lift up'; spelled with one l"
+      },
+      {
+        "w": "encom[i]um",
+        "pos": "noun",
+        "m": "a formal expression of high praise",
+        "s": "The retiring justice, famously indifferent to flattery, seemed almost embarrassed by the lavish encomium delivered by her former clerks at the farewell dinner.",
+        "syn": ["panegyric", "tribute", "eulogy"],
+        "ant": ["diatribe", "invective"],
+        "root": "Greek enkomion, a victory song sung at a revel"
+      },
+      {
+        "w": "pan[egy]ric",
+        "pos": "noun",
+        "m": "a public speech or text of elaborate praise",
+        "s": "Intended as a balanced assessment, the biography reads instead as a panegyric, glossing over its subject's failures while magnifying every modest success.",
+        "syn": ["encomium", "eulogy", "paean"],
+        "ant": ["philippic", "tirade"],
+        "root": "Greek panegyris, 'public assembly': praise before the whole crowd"
+      },
+      {
+        "w": "pla[u]dit",
+        "pos": "noun",
+        "m": "an expression of enthusiastic approval; applause",
+        "s": "Each plaudit from the normally hostile press surprised the director, who had expected his unconventional staging to be savaged by traditionalist reviewers.",
+        "syn": ["accolade", "acclaim", "applause"],
+        "ant": ["censure", "opprobrium"],
+        "root": "Latin plaudere, 'to clap' (applaud)"
+      },
+      {
+        "w": "a[cc]olade",
+        "pos": "noun",
+        "m": "an award or expression of praise and honor",
+        "s": "The physicist accepted the accolade graciously but reminded the audience that the discovery belonged equally to the graduate students who had run the experiments.",
+        "syn": ["honor", "plaudit", "tribute"],
+        "ant": ["reproach", "condemnation"],
+        "root": "French: the embrace or sword-touch conferring knighthood"
+      },
+      {
+        "w": "lioni[z]e",
+        "pos": "verb",
+        "m": "to treat someone as a celebrity or hero",
+        "s": "The same society that would later lionize the explorer as a national hero had, during his lifetime, dismissed him as a reckless self-promoter.",
+        "syn": ["celebrate", "fete", "idolize"],
+        "ant": ["vilify", "ostracize"],
+        "root": "From the Tower of London lions, a must-see attraction"
+      },
+      {
+        "w": "ven[er]ate",
+        "pos": "verb",
+        "m": "to regard with deep respect or reverence",
+        "s": "Younger scholars tend to venerate the founder of the discipline, but few of them have actually read the dense treatises on which his reputation rests.",
+        "syn": ["revere", "honor", "idolize"],
+        "ant": ["scorn", "deride"],
+        "root": "Latin venerari, 'to worship' (related to Venus)"
+      },
+      {
+        "w": "ex[a]lt",
+        "pos": "verb",
+        "m": "to praise highly or raise in rank, power, or status",
+        "s": "Romantic poets tended to exalt untutored feeling over reason, treating the spontaneous emotion of a peasant as wiser than any philosopher's argument.",
+        "syn": ["glorify", "extol", "elevate"],
+        "ant": ["denigrate", "debase"],
+        "root": "Latin exaltare, 'to raise high'; not exult ('rejoice')"
+      },
+      {
+        "w": "laud[a]tory",
+        "pos": "adj",
+        "m": "expressing or containing praise",
+        "s": "Reviews of the memoir were uniformly laudatory, though several critics later admitted they had been reluctant to fault a book by so beloved a figure.",
+        "syn": ["complimentary", "approving", "eulogistic"],
+        "ant": ["critical", "censorious", "derogatory"],
+        "root": "Latin laudare, 'to praise'"
+      },
+      {
+        "w": "pa[ea]n",
+        "pos": "noun",
+        "m": "a song or work expressing enthusiastic praise or triumph",
+        "s": "Far from a dispassionate economic history, the book is a paean to the free market, crediting it with nearly every advance of the past two centuries.",
+        "syn": ["hymn", "encomium", "panegyric"],
+        "ant": ["diatribe", "denunciation"],
+        "root": "Greek paian, a hymn to Apollo the healer"
+      },
+      {
+        "w": "[eu]logize",
+        "pos": "verb",
+        "m": "to praise highly, especially in a funeral tribute",
+        "s": "Colleagues who rose to eulogize the senator praised his legislative skill but conspicuously avoided any mention of the scandal that ended his career.",
+        "syn": ["extol", "laud", "celebrate"],
+        "ant": ["vilify", "denounce"],
+        "root": "Greek eu 'well' + logos 'speech': speaking well of"
+      }
+    ],
+    "tc": [
+      {
+        "q": "Although the committee's report was ostensibly a neutral review of the program, its tone was so unremittingly _____ that several members suspected it had been drafted by the program's own director.",
+        "blanks": [["skeptical", "laudatory", "equivocal", "perfunctory", "acerbic"]],
+        "answer": [1],
+        "why": "Suspecting that the program's director wrote the report implies it relentlessly praised the program, so 'laudatory' fits. 'Skeptical' and 'acerbic' point the opposite way, and an 'equivocal' or 'perfunctory' tone would give no reason to suspect self-authorship."
+      },
+      {
+        "q": "Readers accustomed to the reverent tone of earlier biographies, and thus expecting yet another _____, will be startled by the historian's study of the general: although she grants his tactical brilliance, most of the book catalogs the brutality with which he governed occupied territory.",
+        "blanks": [["indictment", "digression", "panegyric", "chronology", "critique"]],
+        "answer": [2],
+        "why": "'Reverent tone' and 'yet another' tell you readers expect more praise, and the brutality-focused book startles them, so 'panegyric.' 'Indictment' and 'critique' describe what the book actually is, so they could not be the surprising expectation."
+      },
+      {
+        "q": "The scientist's reputation among her peers was curiously (i) _____: the same colleagues who would publicly (ii) _____ her experimental ingenuity privately dismissed her theoretical work as naive.",
+        "blanks": [["unassailable", "negligible", "divided"], ["disparage", "extol", "scrutinize"]],
+        "answer": [2, 1],
+        "why": "The colon explains the 'curious' reputation: public praise ('extol') set against private dismissal makes it 'divided.' 'Unassailable' ignores the private dismissal, and 'disparage' erases the public/private contrast the sentence depends on."
+      },
+      {
+        "q": "Critics who were once quick to (i) _____ the young playwright as the savior of the American stage now seem embarrassed by their earlier enthusiasm; their reviews of her latest play are pointedly (ii) _____, as though to atone for past excess.",
+        "blanks": [["censure", "lionize", "ignore"], ["tepid", "effusive", "incoherent"]],
+        "answer": [1, 0],
+        "why": "'Savior of the American stage' and 'earlier enthusiasm' require 'lionize.' Atoning for past excess of praise means the new reviews are cool, so 'tepid'; 'effusive' would repeat the excess rather than atone for it."
+      }
+    ],
+    "se": [
+      {
+        "q": "The documentary is less an objective history of the band than an extended _____, its interviews carefully selected to celebrate the musicians and to omit any hint of their notorious feuds.",
+        "choices": ["critique", "paean", "chronicle", "encomium", "lampoon", "retrospective"],
+        "answer": [1, 3],
+        "why": "'Less an objective history than' plus 'selected to celebrate' calls for a work of unreserved praise: 'paean' and 'encomium.' 'Chronicle' and 'retrospective' form a tempting pair, but they are neutral, which is exactly what the film is said NOT to be; 'critique' and 'lampoon' are the opposite."
+      },
+      {
+        "q": "Despite the _____ reviews that greeted its premiere, the opera vanished from the repertoire within a decade, a fate more often reserved for works that critics had panned.",
+        "choices": ["laudatory", "scathing", "rapturous", "tepid", "mixed", "caustic"],
+        "answer": [0, 2],
+        "why": "'Despite' plus 'a fate more often reserved for works critics had panned' means the reviews were glowing: 'laudatory' and 'rapturous.' 'Scathing' and 'caustic' are a synonym pair that reverses the logic, and 'tepid' or 'mixed' reviews would make the opera's disappearance unsurprising."
+      },
+      {
+        "q": "Though contemporaries were inclined to _____ the inventor as a visionary, later historians have shown that most of his celebrated devices were adapted from the work of obscure rivals.",
+        "choices": ["vilify", "lionize", "imitate", "dismiss", "exalt", "patronize"],
+        "answer": [1, 4],
+        "why": "'As a visionary' and the debunking 'though' clause call for celebrating him: 'lionize' and 'exalt.' 'Vilify' and 'dismiss' contradict 'visionary,' and 'imitate' or 'patronize' do not work with 'as a visionary.'"
+      },
+      {
+        "q": "At the memorial, the speakers chose to _____ the late editor's courage in publishing unpopular views rather than dwell on the abrasive temperament that had alienated so many of his writers.",
+        "choices": ["deplore", "scrutinize", "extol", "conceal", "lament", "laud"],
+        "answer": [2, 5],
+        "why": "At a memorial the speakers turn away from his flaws ('rather than dwell on') toward praising his courage: 'extol' and 'laud.' 'Deplore' and 'lament' express disapproval or grief, which makes no sense when the object is his courage, and 'conceal' contradicts the speakers' focus on it."
+      }
+    ]
+  },
+  {
+    "n": 2,
+    "title": "Criticism & Rebuke",
+    "icon": "👎",
+    "rule": "These words run from mild correction (admonish, reprove) through formal or public disapproval (censure, decry, opprobrium) to savage, abusive attack (excoriate, castigate, vituperative, diatribe). GRE items often turn on intensity and formality, so check whether the context calls for a gentle warning, an official reprimand, or a blistering denunciation, and do not pick a harsh word when the sentence says 'mild' or 'measured.'",
+    "tip": "Excoriate literally means 'to strip off the hide' (Latin ex + corium), so the harshest criticism flays its target alive.",
+    "examples": ["ex[cor]iate", "o[pp]robrium", "cens[ure]"],
+    "words": [
+      {
+        "w": "cast[i]gate",
+        "pos": "verb",
+        "m": "to criticize or punish severely",
+        "s": "The inspector general's report did more than note the agency's lapses; it went on to castigate senior officials for ignoring repeated warnings from their own staff.",
+        "syn": ["chastise", "excoriate", "upbraid"],
+        "ant": ["commend", "praise"],
+        "root": "Latin castigare, 'to make pure' (castus) by correcting"
+      },
+      {
+        "w": "be[r]ate",
+        "pos": "verb",
+        "m": "to scold angrily and at length",
+        "s": "Rather than berate the intern for the costly error, the editor calmly walked her through the fact-checking procedures she had skipped.",
+        "syn": ["scold", "upbraid", "harangue"],
+        "ant": ["praise", "compliment"],
+        "root": "be- 'thoroughly' + rate 'to scold'"
+      },
+      {
+        "w": "cens[ure]",
+        "pos": "verb",
+        "m": "to express formal, often official, disapproval of",
+        "s": "Although the board voted to censure the trustee for his conflict of interest, it stopped short of removing him, a leniency many members later regretted.",
+        "syn": ["condemn", "reprimand", "rebuke"],
+        "ant": ["commend", "endorse"],
+        "root": "Latin censura, a Roman censor's judgment; not 'censor'"
+      },
+      {
+        "w": "admon[i]sh",
+        "pos": "verb",
+        "m": "to warn or reprimand gently but earnestly",
+        "s": "The judge chose to admonish the young defendant rather than impose a sentence, warning him that a second offense would not be treated so leniently.",
+        "syn": ["reprove", "caution", "chide"],
+        "ant": ["commend", "applaud"],
+        "root": "Latin admonere, 'to remind, warn' (monitor)"
+      },
+      {
+        "w": "re[pro]ve",
+        "pos": "verb",
+        "m": "to express mild disapproval of; to correct gently",
+        "s": "The mentor would reprove her students only in private, believing that public correction humiliated the very people it was meant to improve.",
+        "syn": ["chide", "admonish", "rebuke"],
+        "ant": ["approve", "commend"],
+        "root": "Latin reprobare, 'to disapprove' (reprobate)"
+      },
+      {
+        "w": "up[b]raid",
+        "pos": "verb",
+        "m": "to scold or find fault with severely",
+        "s": "Instead of thanking the volunteers, the director proceeded to upbraid them for minor lapses, and by the following season few were willing to return.",
+        "syn": ["berate", "scold", "castigate"],
+        "ant": ["praise", "laud"],
+        "root": "Old English up + bregdan, 'to throw up against'"
+      },
+      {
+        "w": "ex[cor]iate",
+        "pos": "verb",
+        "m": "to criticize with extreme severity; literally, to strip off skin",
+        "s": "Reviewers did not merely dislike the director's new film; they used it as an occasion to excoriate his entire career as a triumph of style over substance.",
+        "syn": ["lambaste", "flay", "castigate"],
+        "ant": ["extol", "laud"],
+        "root": "Latin ex 'off' + corium 'hide': to flay"
+      },
+      {
+        "w": "chast[i]se",
+        "pos": "verb",
+        "m": "to rebuke severely, sometimes with punishment",
+        "s": "Editorials were quick to chastise the mayor for vacationing during the flood, though few noted that he had approved the emergency funds before leaving.",
+        "syn": ["reprimand", "castigate", "rebuke"],
+        "ant": ["commend", "praise"],
+        "root": "Latin castigare, same source as castigate; ends -ise"
+      },
+      {
+        "w": "de[c]ry",
+        "pos": "verb",
+        "m": "to denounce publicly as harmful or wrong",
+        "s": "Many of the same commentators who decry the influence of money in politics are themselves funded by wealthy donors with obvious legislative agendas.",
+        "syn": ["denounce", "condemn", "deplore"],
+        "ant": ["extol", "endorse"],
+        "root": "Old French descrier, 'to cry down'"
+      },
+      {
+        "w": "di[a]tribe",
+        "pos": "noun",
+        "m": "a bitter, abusive verbal attack",
+        "s": "What began as a measured critique of the study's methodology soon degenerated into a diatribe against the entire field of behavioral economics.",
+        "syn": ["tirade", "harangue", "philippic"],
+        "ant": ["encomium", "panegyric"],
+        "root": "Greek diatribe, 'a wearing away' of time: a long harangue"
+      },
+      {
+        "w": "o[pp]robrium",
+        "pos": "noun",
+        "m": "harsh public criticism, or the disgrace it brings",
+        "s": "The senator braved the opprobrium of his own party by voting against the bill, a decision historians now regard as an act of principled courage.",
+        "syn": ["obloquy", "censure", "disgrace"],
+        "ant": ["acclaim", "esteem"],
+        "root": "Latin op- 'against' + probrum 'shameful act'"
+      },
+      {
+        "w": "vitu[per]ative",
+        "pos": "adj",
+        "m": "bitterly abusive or harshly scolding in language",
+        "s": "The columnist's vituperative attacks on her rivals won her a loyal readership but also a string of libel suits that eventually bankrupted the paper.",
+        "syn": ["scathing", "abusive", "vitriolic"],
+        "ant": ["complimentary", "laudatory"],
+        "root": "Latin vituperare, 'to find fault' (vitium 'fault, vice')"
+      }
+    ],
+    "tc": [
+      {
+        "q": "The reviewer's assessment, though unmistakably critical, was hardly a _____; she faulted the novel's pacing in a few measured sentences and devoted the rest of the review to its considerable strengths.",
+        "blanks": [["eulogy", "diatribe", "synopsis", "digression", "tribute"]],
+        "answer": [1],
+        "why": "'Hardly,' plus criticism that is brief and 'measured,' means the blank must be an extreme, abusive attack: 'diatribe.' 'Eulogy' and 'tribute' are praise, which the 'though unmistakably critical' concession makes irrelevant."
+      },
+      {
+        "q": "Rather than _____ the junior researchers for their failure to replicate the celebrated result, the lab director, acknowledging her own role in the original study, conceded that the finding might itself have been an artifact.",
+        "blanks": [["exonerate", "indulge", "berate", "applaud", "reimburse"]],
+        "answer": [2],
+        "why": "'Rather than' contrasts the blank with the director taking the blame herself, so the blank must mean blaming them harshly: 'berate.' 'Exonerate' is the trap, because clearing the researchers is consistent with her concession, not opposed to it."
+      },
+      {
+        "q": "Although the committee's final report stopped short of formally (i) _____ the dean, its findings exposed him to such widespread (ii) _____ that his resignation within the month surprised no one.",
+        "blanks": [["exculpating", "promoting", "censuring"], ["acclaim", "opprobrium", "indifference"]],
+        "answer": [2, 1],
+        "why": "'Although' sets an official punishment the report withheld ('censuring') against the informal disgrace it still caused ('opprobrium'), which explains the resignation. 'Exculpating' fails because 'not clearing him' would agree with, rather than contrast with, the damaging findings."
+      },
+      {
+        "q": "The novelist's letters reveal a man far more (i) _____ than his public persona suggested: the genial raconteur of the talk shows privately (ii) _____ his editors in language so savage that his estate has refused to publish the correspondence.",
+        "blanks": [["convivial", "vituperative", "diffident"], ["placated", "ignored", "excoriated"]],
+        "answer": [1, 2],
+        "why": "The contrast with his 'genial' persona and 'language so savage' demand 'vituperative' and 'excoriated.' 'Convivial' simply restates the public persona, and 'placated' contradicts 'savage.'"
+      }
+    ],
+    "se": [
+      {
+        "q": "Though the inspector's report was couched in polite bureaucratic language, its purpose was unmistakably to _____ the agency for years of negligent oversight.",
+        "choices": ["exonerate", "castigate", "reimburse", "chastise", "advise", "acquit"],
+        "answer": [1, 3],
+        "why": "'Though... polite language' signals a harsh purpose underneath, aimed at 'negligent oversight': 'castigate' and 'chastise.' 'Exonerate' and 'acquit' form a matching pair, but clearing the agency contradicts the negligence."
+      },
+      {
+        "q": "The professor was known less for harsh criticism than for the mild, almost apologetic way she would _____ students who submitted careless work.",
+        "choices": ["excoriate", "lambaste", "ignore", "reprove", "reward", "admonish"],
+        "answer": [3, 5],
+        "why": "'Mild, almost apologetic' criticism calls for gentle correction: 'reprove' and 'admonish.' 'Excoriate' and 'lambaste' are a synonym trap because they are exactly the harsh criticism the sentence rules out."
+      },
+      {
+        "q": "Having spent decades as the target of academic _____ for his unorthodox theories, the geologist was vindicated when new seismic data confirmed his model.",
+        "choices": ["opprobrium", "acclaim", "obloquy", "patronage", "curiosity", "esteem"],
+        "answer": [0, 2],
+        "why": "'Vindicated' means he had been condemned or discredited before, so the blank means harsh public criticism: 'opprobrium' and 'obloquy.' 'Acclaim' and 'esteem' are a synonym pair that leaves nothing to vindicate."
+      },
+      {
+        "q": "Many of the reformers who loudly _____ the practice of patronage in public speeches quietly rely on it to secure jobs for their own supporters.",
+        "choices": ["condone", "tolerate", "decry", "document", "denounce", "finance"],
+        "answer": [2, 4],
+        "why": "The hypocrisy ('loudly' in public vs. 'quietly rely on it') requires public condemnation: 'decry' and 'denounce.' 'Condone' and 'tolerate' are a pair that removes the hypocrisy the sentence describes."
+      }
+    ]
+  },
+  {
+    "n": 3,
+    "title": "Flattery & Servility",
+    "icon": "🙇",
+    "rule": "These words describe winning favor through excessive praise or abject submission to a superior (obsequious, servile, toady, kowtow) or through smooth, calculated charm (unctuous, blandishment, cajole, ingratiate). The GRE likes to contrast them with sincere admiration or principled independence, so ask whether the praise in the sentence is earned and honest or self-serving, and remember that 'fulsome' means excessively flattering, not 'full' or 'abundant.'",
+    "tip": "A 'toady' is short for 'toad-eater,' the quack doctor's assistant who pretended to swallow poisonous toads so his master could stage a miraculous cure.",
+    "examples": ["obs[equ]ious", "syc[o]phant", "unct[u]ous"],
+    "words": [
+      {
+        "w": "obs[equ]ious",
+        "pos": "adj",
+        "m": "excessively eager to please or obey",
+        "s": "The new manager quickly tired of the obsequious assistant who agreed with every remark, praised every decision, and never once offered an independent opinion.",
+        "syn": ["servile", "fawning", "sycophantic"],
+        "ant": ["domineering", "assertive"],
+        "root": "Latin obsequi, 'to comply'"
+      },
+      {
+        "w": "syc[o]phant",
+        "pos": "noun",
+        "m": "a person who flatters the powerful to gain advantage",
+        "s": "Isolated by success, the aging tycoon could no longer distinguish an honest adviser from a sycophant who simply told him what he wanted to hear.",
+        "syn": ["toady", "flatterer", "lackey"],
+        "ant": ["critic", "maverick"],
+        "root": "Greek sykophantes, 'informer'; later a self-serving flatterer"
+      },
+      {
+        "w": "fa[wn]ing",
+        "pos": "adj",
+        "m": "displaying exaggerated flattery or affection to win favor",
+        "s": "The documentary's fawning treatment of the celebrity chef ignored the well-documented complaints of the line cooks who had worked in his kitchens.",
+        "syn": ["obsequious", "sycophantic", "groveling"],
+        "ant": ["critical", "disdainful"],
+        "root": "Old English fagnian, 'to rejoice': as a dog fawns"
+      },
+      {
+        "w": "toad[y]",
+        "pos": "noun",
+        "m": "a person who flatters or defers to others for self-interest",
+        "s": "Promoted over more capable colleagues, the director's longtime toady was widely resented by staff who had watched him flatter his way to the top.",
+        "syn": ["sycophant", "lackey", "bootlicker"],
+        "ant": ["rebel", "maverick"],
+        "root": "Short for 'toad-eater,' a quack's flattering assistant"
+      },
+      {
+        "w": "serv[ile]",
+        "pos": "adj",
+        "m": "excessively submissive; slavishly obedient",
+        "s": "Historians have long debated whether the court painter's servile portraits of the king reflected genuine admiration or merely the fear of losing his royal pension.",
+        "syn": ["subservient", "obsequious", "slavish"],
+        "ant": ["domineering", "independent"],
+        "root": "Latin servus, 'slave' (servant, servitude)"
+      },
+      {
+        "w": "unct[u]ous",
+        "pos": "adj",
+        "m": "excessively and insincerely smooth or flattering in manner",
+        "s": "The salesman's unctuous compliments about her 'impeccable taste' only deepened her suspicion that the antique he was pushing was a forgery.",
+        "syn": ["oily", "smarmy", "oleaginous"],
+        "ant": ["brusque", "sincere"],
+        "root": "Latin unguere, 'to anoint with oil' (unguent)"
+      },
+      {
+        "w": "ingrat[i]ate",
+        "pos": "verb",
+        "m": "to gain favor by deliberate efforts to please",
+        "s": "Hoping to ingratiate himself with the new administration, the professor abruptly abandoned the policy positions he had defended for twenty years.",
+        "syn": ["curry favor", "insinuate", "flatter"],
+        "ant": ["alienate", "antagonize"],
+        "root": "Latin in gratiam, 'into favor' (gratitude)"
+      },
+      {
+        "w": "bland[ish]ment",
+        "pos": "noun",
+        "m": "flattering speech or action used to coax or persuade",
+        "s": "The envoy resisted every blandishment the foreign minister offered, from lavish banquets to hints of a lucrative post after his retirement.",
+        "syn": ["flattery", "cajolery", "coaxing"],
+        "ant": ["threat", "coercion"],
+        "root": "Latin blandus, 'smooth-tongued, flattering'"
+      },
+      {
+        "w": "ca[j]ole",
+        "pos": "verb",
+        "m": "to persuade by flattery or gentle coaxing",
+        "s": "Unable to cajole the reluctant witness into testifying, the prosecutor finally resorted to a subpoena, a move that made the witness even less cooperative.",
+        "syn": ["coax", "wheedle", "inveigle"],
+        "ant": ["coerce", "compel"],
+        "root": "French cajoler, 'to chatter like a jay'"
+      },
+      {
+        "w": "ad[u]lation",
+        "pos": "noun",
+        "m": "excessive or slavish admiration or praise",
+        "s": "The adulation that greeted the young conductor's debut struck some veteran musicians as premature, since he had yet to tackle a single demanding score.",
+        "syn": ["idolization", "hero worship", "flattery"],
+        "ant": ["contempt", "derision"],
+        "root": "Latin adulari, 'to fawn like a dog'"
+      },
+      {
+        "w": "ful[s]ome",
+        "pos": "adj",
+        "m": "excessively complimentary or flattering, to the point of insincerity",
+        "s": "The ambassador's fulsome praise of the dictator, delivered only weeks after the regime's crackdown on protesters, provoked outrage among human-rights groups.",
+        "syn": ["unctuous", "effusive", "cloying"],
+        "ant": ["restrained", "grudging"],
+        "root": "Middle English full + -some: overfull, cloying; not 'abundant'"
+      },
+      {
+        "w": "k[ow]tow",
+        "pos": "verb",
+        "m": "to act in an excessively subservient manner",
+        "s": "Unlike rivals who were willing to kowtow to the network executives, the showrunner refused to soften the series' political satire, even at the cost of cancellation.",
+        "syn": ["grovel", "truckle", "toady"],
+        "ant": ["defy", "resist"],
+        "root": "Chinese ketou, 'knock the head': a prostrate bow"
+      }
+    ],
+    "tc": [
+      {
+        "q": "The courtiers' praise of the young king was so _____ that even he, hardly a modest man, began to suspect that it was motivated more by ambition than by admiration.",
+        "blanks": [["measured", "grudging", "sardonic", "fulsome", "perfunctory"]],
+        "answer": [3],
+        "why": "If even a vain king ('hardly a modest man') found the praise suspicious, it must have been excessive and insincere: 'fulsome.' 'Perfunctory' praise might seem insincere, but it would not point to the courtiers' ambition, and 'measured' or 'grudging' praise would not seem excessive even to a vain man."
+      },
+      {
+        "q": "Far from being the independent voice his admirers imagined, the critic proved thoroughly _____, reliably revising his judgments to match the tastes of whichever patron happened to be funding his magazine.",
+        "blanks": [["obsequious", "iconoclastic", "incorruptible", "capricious", "censorious"]],
+        "answer": [0],
+        "why": "'Far from... independent' and shaping his opinions to please his funders mean 'obsequious.' 'Capricious' is the trap: his changes of view are not random but systematically servile; 'iconoclastic' and 'incorruptible' describe the independence he lacked."
+      },
+      {
+        "q": "The diplomat's success lay not in (i) _____ but in charm: she rarely threatened her counterparts, preferring instead to (ii) _____ them with flattery and small favors until they conceded points they had sworn never to yield.",
+        "blanks": [["coercion", "cajolery", "candor"], ["intimidate", "cajole", "rebuff"]],
+        "answer": [0, 1],
+        "why": "'Rarely threatened' identifies what she did not rely on, 'coercion,' and 'flattery and small favors' identifies her method, 'cajole.' 'Cajolery' in blank (i) is the trap, since it is exactly the charm the sentence credits for her success."
+      },
+      {
+        "q": "Scholars once dismissed the poet's dedications to her aristocratic patrons as merely (i) _____, the conventional flattery that any writer of the period owed a benefactor; recent readings, however, detect in their extravagant praise a (ii) _____ irony that mocks the very patrons it appears to exalt.",
+        "blanks": [["seditious", "servile", "incoherent"], ["sly", "reverent", "maudlin"]],
+        "answer": [1, 0],
+        "why": "'Conventional flattery... owed a benefactor' defines blank (i) as 'servile.' An irony that must be 'detected' and that mocks while appearing to praise is hidden and clever: 'sly.' 'Reverent' contradicts the mockery, and 'seditious' anticipates the new reading rather than the old dismissal."
+      }
+    ],
+    "se": [
+      {
+        "q": "The memoir's _____ portrait of the senator, written by a former aide who still depended on his patronage, should be read with considerable skepticism.",
+        "choices": ["candid", "sycophantic", "unflattering", "scathing", "fawning", "balanced"],
+        "answer": [1, 4],
+        "why": "An author still dependent on the senator's patronage is likely to flatter him, which is why readers should be skeptical: 'sycophantic' and 'fawning.' 'Unflattering' and 'scathing' are a synonym pair that contradicts the dependence, and 'candid' or 'balanced' would not justify skepticism."
+      },
+      {
+        "q": "Hoping to _____ himself with the incoming chairman, the vice president began praising initiatives he had opposed only months earlier.",
+        "choices": ["distance", "acquaint", "ingratiate", "embarrass", "insinuate", "exonerate"],
+        "answer": [2, 4],
+        "why": "Suddenly praising what he had opposed is a bid for favor: 'ingratiate himself' and 'insinuate himself' both mean to work one's way into someone's good graces. 'Acquaint himself with' fits grammatically but does not explain the flattery, and 'distance himself' would take 'from,' not 'with.'"
+      },
+      {
+        "q": "Visitors to the dictator's court were expected to _____ before him, and those who neglected the ritual prostrations rarely received a second audience.",
+        "choices": ["kowtow", "grovel", "remonstrate", "equivocate", "temporize", "dissent"],
+        "answer": [0, 1],
+        "why": "'Ritual prostrations' calls for abject, bowing submission: 'kowtow' and 'grovel.' 'Remonstrate' and 'dissent' are a pair meaning to protest, the opposite, while 'equivocate' and 'temporize,' meaning to evade or stall, ignore the prostration clue."
+      },
+      {
+        "q": "Immune to _____, the auditor examined the company's books with the same rigor no matter how lavishly its executives complimented her diligence and taste.",
+        "choices": ["intimidation", "blandishment", "coercion", "scrutiny", "flattery", "fatigue"],
+        "answer": [1, 4],
+        "why": "The clue is the executives' lavish compliments, so she was immune to 'blandishment' or 'flattery.' 'Intimidation' and 'coercion' are a grammatical synonym pair, but nothing in the sentence involves pressure or threats."
+      }
+    ]
+  },
+  {
+    "n": 4,
+    "title": "Arrogance & Disdain",
+    "icon": "👑",
+    "rule": "These words describe an inflated sense of one's own importance (hubris, overweening, vainglorious, arrogate) and the scorn or condescension it produces toward others (haughty, supercilious, disdain, contemptuous, deride). The GRE often separates arrogance that commands (imperious) from arrogance that looks down on others (condescending, patronize), and it frequently sets these words against humility, so a 'far from' or 'belied' can flip the needed charge.",
+    "tip": "Supercilious comes from Latin supercilium, 'eyebrow,' so picture the raised eyebrow of someone looking down their nose at you.",
+    "examples": ["super[cil]ious", "hub[r]is", "a[rr]ogate"],
+    "words": [
+      {
+        "w": "h[augh]ty",
+        "pos": "adj",
+        "m": "arrogantly superior and disdainful toward others",
+        "s": "The duchess's haughty refusal to shake hands with the factory workers was captured by photographers and became a symbol of the aristocracy's detachment.",
+        "syn": ["supercilious", "lofty", "arrogant"],
+        "ant": ["humble", "unassuming"],
+        "root": "Old French haut, 'high': holding oneself high"
+      },
+      {
+        "w": "super[cil]ious",
+        "pos": "adj",
+        "m": "behaving as though one is superior to others; disdainful",
+        "s": "The sommelier's supercilious smirk when she ordered the house wine made her resolve never to return to the restaurant, however acclaimed its kitchen.",
+        "syn": ["haughty", "condescending", "disdainful"],
+        "ant": ["humble", "deferential"],
+        "root": "Latin supercilium, 'eyebrow': the raised brow of scorn"
+      },
+      {
+        "w": "conde[sc]ending",
+        "pos": "adj",
+        "m": "displaying a patronizing attitude of superiority",
+        "s": "Although the senior partner meant to be encouraging, his condescending explanation of basic accounting principles offended the associate, who held a doctorate in finance.",
+        "syn": ["patronizing", "supercilious", "disdainful"],
+        "ant": ["respectful", "deferential"],
+        "root": "Latin condescendere, 'to descend with': stooping down"
+      },
+      {
+        "w": "imper[i]ous",
+        "pos": "adj",
+        "m": "assuming authority without justification; domineering and arrogant",
+        "s": "The conductor's imperious manner, tolerated while he was producing celebrated recordings, became insufferable to the orchestra once his artistic powers began to decline.",
+        "syn": ["domineering", "peremptory", "overbearing"],
+        "ant": ["submissive", "meek"],
+        "root": "Latin imperium, 'command' (empire, imperial)"
+      },
+      {
+        "w": "hub[r]is",
+        "pos": "noun",
+        "m": "excessive pride or self-confidence, often leading to downfall",
+        "s": "Investigators concluded that the bank's collapse stemmed less from bad luck than from hubris: its executives believed their models could not fail.",
+        "syn": ["arrogance", "conceit", "presumption"],
+        "ant": ["humility", "modesty"],
+        "root": "Greek hybris, the pride that provokes the gods"
+      },
+      {
+        "w": "over[ween]ing",
+        "pos": "adj",
+        "m": "showing excessive confidence or pride; immoderate",
+        "s": "Napoleon's overweening ambition, which had carried him across Europe, finally led him into a Russian campaign that his own generals considered suicidal.",
+        "syn": ["arrogant", "presumptuous", "immoderate"],
+        "ant": ["modest", "diffident"],
+        "root": "over + Old English wenan, 'to think': thinking too highly"
+      },
+      {
+        "w": "disd[ai]n",
+        "pos": "noun",
+        "m": "the feeling that someone or something is unworthy of respect",
+        "s": "The critic made no effort to hide her disdain for popular fiction, though her own bestselling thrillers were published under a pseudonym.",
+        "syn": ["contempt", "scorn", "derision"],
+        "ant": ["admiration", "respect", "esteem"],
+        "root": "Latin dis- + dignari, 'to deem worthy' (dignity)"
+      },
+      {
+        "w": "contemp[tu]ous",
+        "pos": "adj",
+        "m": "showing scorn; regarding someone or something as worthless",
+        "s": "Her contemptuous dismissal of the junior senator's amendment backfired when the measure attracted bipartisan support and passed by a wide margin.",
+        "syn": ["scornful", "disdainful", "derisive"],
+        "ant": ["respectful", "admiring"],
+        "root": "Latin contemnere, 'to scorn'; contemptible means 'deserving scorn'"
+      },
+      {
+        "w": "patron[iz]e",
+        "pos": "verb",
+        "m": "to treat with apparent kindness that betrays a feeling of superiority",
+        "s": "Volunteers were warned not to patronize the elderly residents by speaking slowly and loudly, as if age itself implied a loss of intelligence.",
+        "syn": ["condescend to", "talk down to", "belittle"],
+        "ant": ["respect", "defer to"],
+        "root": "From 'patron': acting as a lofty benefactor"
+      },
+      {
+        "w": "a[rr]ogate",
+        "pos": "verb",
+        "m": "to claim or seize without justification",
+        "s": "Critics accused the president of trying to arrogate to the executive branch powers the constitution had explicitly reserved for the legislature.",
+        "syn": ["usurp", "appropriate", "commandeer"],
+        "ant": ["relinquish", "cede"],
+        "root": "Latin ad + rogare, 'to ask for' (shares root with arrogant)"
+      },
+      {
+        "w": "der[i]de",
+        "pos": "verb",
+        "m": "to mock or ridicule with contempt",
+        "s": "Established physicians were quick to deride the young doctor's insistence on handwashing, a practice later shown to save thousands of lives.",
+        "syn": ["ridicule", "mock", "scoff at"],
+        "ant": ["praise", "respect"],
+        "root": "Latin de- + ridere, 'to laugh' (ridicule)"
+      },
+      {
+        "w": "vain[glo]rious",
+        "pos": "adj",
+        "m": "excessively proud of oneself and given to boasting",
+        "s": "The general's vainglorious memoirs credit him alone for victories that, according to the battlefield records, were largely won by his subordinates.",
+        "syn": ["boastful", "conceited", "vain"],
+        "ant": ["modest", "self-effacing"],
+        "root": "Latin vana gloria, 'empty glory'"
+      }
+    ],
+    "tc": [
+      {
+        "q": "The ancient tragedians would have recognized the financier's downfall at once: a man of modest gifts, he was undone less by his rivals than by his own _____, the conviction that the ordinary rules of prudence did not apply to him.",
+        "blanks": [["avarice", "diffidence", "naivete", "hubris", "lethargy"]],
+        "answer": [3],
+        "why": "The appositive defines the blank as the belief that he was above ordinary rules, which together with the nod to tragedy means 'hubris.' 'Avarice' is the trap: greed could ruin a financier, but it is not the 'conviction' the sentence describes."
+      },
+      {
+        "q": "Although she insisted that she welcomed questions from her graduate students, her _____ replies, delivered with a sigh and a glance at the ceiling, made clear how little regard she had for their intelligence.",
+        "blanks": [["candid", "equivocal", "supercilious", "ingenuous", "solicitous"]],
+        "answer": [2],
+        "why": "The sigh, the eye-roll, and her 'little regard' for the students describe disdainful superiority: 'supercilious.' 'Solicitous' and 'candid' would support her claim to welcome questions, which the 'although' clause says her replies contradicted."
+      },
+      {
+        "q": "Though the governor professed great (i) _____ for local self-government, his first act in office was to (ii) _____ powers long exercised by the regional councils, issuing decrees on matters they had always settled themselves.",
+        "blanks": [["disdain", "reverence", "indifference"], ["arrogate", "relinquish", "delegate"]],
+        "answer": [1, 0],
+        "why": "'Though' sets what he professed against what he did, which was seize the councils' powers ('arrogate'), so he must have professed respect ('reverence'). 'Relinquish' and 'delegate' contradict 'issuing decrees,' and professing 'disdain' would leave no contrast."
+      },
+      {
+        "q": "The memoirist's tone toward her former colleagues is not so much openly (i) _____ as subtly (ii) _____: she never insults them outright, but she praises their 'charming' little efforts in the manner of a teacher indulging a promising child.",
+        "blanks": [["deferential", "contemptuous", "nostalgic"], ["venomous", "admiring", "condescending"]],
+        "answer": [1, 2],
+        "why": "'Never insults them outright' rules out open scorn, so (i) is 'contemptuous' and names what she is not. Praising adults like a teacher indulging a child is 'condescending.' 'Admiring' is the trap, since her praise is the vehicle of her condescension rather than sincere."
+      }
+    ],
+    "se": [
+      {
+        "q": "The aging film star's _____ treatment of the crew, whose names she refused to learn and whom she addressed only through her assistant, made the production miserable.",
+        "choices": ["gracious", "haughty", "erratic", "diffident", "supercilious", "jovial"],
+        "answer": [1, 4],
+        "why": "Refusing to learn the crew's names and speaking to them only through an intermediary shows lofty disdain: 'haughty' and 'supercilious.' 'Gracious' and 'jovial' are a positive pair that contradicts 'miserable,' and 'erratic' suggests inconsistency, which nothing supports."
+      },
+      {
+        "q": "Ancient historians attributed the general's defeat to _____: having won every previous campaign, he dismissed his scouts' warnings and marched straight into an ambush.",
+        "choices": ["cowardice", "timidity", "treachery", "hubris", "fatigue", "arrogance"],
+        "answer": [3, 5],
+        "why": "Past victories that led him to dismiss warnings describe overconfident pride: 'hubris' and 'arrogance.' 'Cowardice' and 'timidity' are a synonym pair but contradict marching 'straight into' danger, and 'treachery' is not supported by the colon's explanation."
+      },
+      {
+        "q": "Though the critic claimed to admire genre fiction, her reviews betrayed a thinly veiled _____ for any novel that featured a detective or a dragon.",
+        "choices": ["disdain", "affinity", "contempt", "nostalgia", "predilection", "sympathy"],
+        "answer": [0, 2],
+        "why": "'Though she claimed to admire' and 'betrayed' signal the hidden opposite of admiration: 'disdain' and 'contempt.' 'Affinity' and 'predilection' are a tempting pair that fits grammatically but merely restates her claim instead of contrasting with it."
+      },
+      {
+        "q": "The committee members resented the consultant's tendency to _____ them, explaining elementary concepts at length as though they had never before run an organization.",
+        "choices": ["flatter", "deceive", "patronize", "berate", "indulge", "condescend to"],
+        "answer": [2, 5],
+        "why": "Over-explaining the basics to experienced people treats them as inferiors: 'patronize' and 'condescend to.' 'Berate' is too hostile for patient explanation, and 'flatter' and 'indulge' would not provoke resentment for the reason given."
+      }
+    ]
+  },
+  {
+    "n": 5,
+    "title": "Humility & Restraint",
+    "icon": "🌾",
+    "rule": "These words cover modesty about oneself (unassuming, unpretentious, diffident, demure, abase) and self-control over appetites and impulses (abstemious, ascetic, temperance, forbearance, abnegation, decorous). The GRE uses them as foils for arrogance and excess and tests their nuances: 'diffident' implies a lack of confidence rather than mere modesty, and 'chasten' implies humility forced on someone by rebuke or failure.",
+    "tip": "Abstemious, a word for taking only a little, uses each of the five vowels exactly once and in order (a-e-i-o-u).",
+    "examples": ["abst[e]mious", "diff[i]dent", "a[sc]etic"],
+    "words": [
+      {
+        "w": "una[ss]uming",
+        "pos": "adj",
+        "m": "not pretentious or arrogant; modest",
+        "s": "Despite her two Nobel nominations, the chemist remained so unassuming that new students often mistook her for a laboratory technician.",
+        "syn": ["modest", "unpretentious", "self-effacing"],
+        "ant": ["arrogant", "pretentious", "haughty"],
+        "root": "un- + assume, 'to take on airs'"
+      },
+      {
+        "w": "unpreten[tious]",
+        "pos": "adj",
+        "m": "modest and simple; not trying to appear important or grand",
+        "s": "The restaurant's unpretentious decor of paper napkins, mismatched chairs, and a chalkboard menu belies the sophistication of a kitchen that has earned two Michelin stars.",
+        "syn": ["modest", "unassuming", "plain"],
+        "ant": ["ostentatious", "pretentious"],
+        "root": "un- + Latin praetendere, 'to stretch forth, claim'"
+      },
+      {
+        "w": "diff[i]dent",
+        "pos": "adj",
+        "m": "shy and lacking self-confidence",
+        "s": "Diffident in seminars, the graduate student rarely spoke unless called upon, yet her written work revealed an originality that astonished her advisers.",
+        "syn": ["timid", "self-effacing", "bashful"],
+        "ant": ["confident", "assertive", "brash"],
+        "root": "Latin dis- + fidere, 'to trust': not trusting oneself"
+      },
+      {
+        "w": "dem[u]re",
+        "pos": "adj",
+        "m": "reserved, modest, and quiet in manner",
+        "s": "The actress, demure and soft-spoken in interviews, was famous on stage for portraying ruthless, flamboyant women who dominated every scene.",
+        "syn": ["modest", "reserved", "retiring"],
+        "ant": ["brazen", "forward"],
+        "root": "Old French meur, 'mature, grave'"
+      },
+      {
+        "w": "chas[t]en",
+        "pos": "verb",
+        "m": "to humble or subdue, especially through hardship or rebuke",
+        "s": "Repeated electoral defeats did little to chasten the party's leadership, which continued to blame the voters rather than its own unpopular platform.",
+        "syn": ["humble", "subdue", "sober"],
+        "ant": ["embolden", "encourage"],
+        "root": "Latin castigare, 'to correct' (chastise, castigate)"
+      },
+      {
+        "w": "a[b]ase",
+        "pos": "verb",
+        "m": "to lower oneself in dignity or rank; to humble",
+        "s": "In the ritual, the emperor would abase himself before the altar, a yearly reminder that even the most powerful ruler was subject to the gods.",
+        "syn": ["humble", "demean", "lower"],
+        "ant": ["exalt", "elevate"],
+        "root": "Latin ad + bassus, 'low' (base, debase)"
+      },
+      {
+        "w": "abst[e]mious",
+        "pos": "adj",
+        "m": "moderate or sparing in eating and drinking; self-restrained",
+        "s": "Though famously abstemious himself, rarely taking more than a single glass of wine, the senator hosted dinners renowned for their extravagance.",
+        "syn": ["temperate", "moderate", "ascetic"],
+        "ant": ["gluttonous", "self-indulgent", "intemperate"],
+        "root": "Latin abs- 'from' + temetum 'strong drink'"
+      },
+      {
+        "w": "a[sc]etic",
+        "pos": "adj",
+        "m": "practicing strict self-denial, especially as spiritual discipline",
+        "s": "The monk's ascetic regimen of one meal a day, a stone floor for a bed, and hours of silent prayer struck the visiting journalists as both admirable and alarming.",
+        "syn": ["austere", "abstemious", "self-denying"],
+        "ant": ["hedonistic", "sybaritic", "self-indulgent"],
+        "root": "Greek askesis, 'exercise, training'; not 'aesthetic'"
+      },
+      {
+        "w": "temper[a]nce",
+        "pos": "noun",
+        "m": "moderation or self-restraint, especially regarding food or drink",
+        "s": "Aristotle praised temperance not as the suppression of desire but as the habit of desiring the right things in the right amounts.",
+        "syn": ["moderation", "restraint", "sobriety"],
+        "ant": ["excess", "intemperance", "indulgence"],
+        "root": "Latin temperare, 'to mix properly, moderate'"
+      },
+      {
+        "w": "forb[ear]ance",
+        "pos": "noun",
+        "m": "patient self-control; restraint in the face of provocation",
+        "s": "The teacher's forbearance with the disruptive student, whom colleagues had long since written off, was eventually rewarded when the boy won a state science prize.",
+        "syn": ["patience", "restraint", "tolerance"],
+        "ant": ["impatience", "intolerance"],
+        "root": "forbear, 'to hold back' (for- 'away' + bear)"
+      },
+      {
+        "w": "abn[e]gation",
+        "pos": "noun",
+        "m": "the renunciation of one's own interests or desires",
+        "s": "Her years of abnegation, spent nursing her ailing parents while her siblings pursued careers abroad, left her with little money but no regrets.",
+        "syn": ["self-denial", "renunciation", "self-sacrifice"],
+        "ant": ["self-indulgence", "selfishness"],
+        "root": "Latin ab- + negare, 'to deny' (negate)"
+      },
+      {
+        "w": "dec[o]rous",
+        "pos": "adj",
+        "m": "in keeping with good taste and propriety; restrained",
+        "s": "The normally decorous proceedings of the academy dissolved into shouting when a member accused the president of plagiarizing his own inaugural lecture.",
+        "syn": ["seemly", "proper", "dignified"],
+        "ant": ["unseemly", "indecorous", "boorish"],
+        "root": "Latin decor, 'seemliness' (decorum)"
+      }
+    ],
+    "tc": [
+      {
+        "q": "Given the composer's international fame, visitors were often surprised by how _____ he was in person: he answered his own door, served tea in chipped mugs, and deflected every compliment toward his performers.",
+        "blanks": [["imperious", "mercurial", "garrulous", "reclusive", "unassuming"]],
+        "answer": [4],
+        "why": "The surprise is set against his fame, and the colon's details (answering his own door, chipped mugs, deflecting praise) all show modesty: 'unassuming.' 'Reclusive' is contradicted by his receiving visitors himself, and 'imperious' is the opposite."
+      },
+      {
+        "q": "That the philosopher's _____ way of life was no mere pose adopted for his disciples is clear from his private letters, in which he describes declining the wine, meat, and soft beds his wealthy patrons pressed upon him.",
+        "blanks": [["sybaritic", "convivial", "ascetic", "itinerant", "gregarious"]],
+        "answer": [2],
+        "why": "Turning down wine, meat, and comfort, even in private, shows genuine self-denial: 'ascetic.' 'Sybaritic' means devoted to luxury, the exact opposite, and 'convivial' and 'gregarious' are about sociability, which the letters do not address."
+      },
+      {
+        "q": "Those who mistook the diplomat's (i) _____ for weakness learned their error at the negotiating table: having endured months of provocation without retaliating, she (ii) _____ precisely when her opponents had exhausted their goodwill with the mediators.",
+        "blanks": [["truculence", "forbearance", "vacillation"], ["capitulated", "hesitated", "struck"]],
+        "answer": [1, 2],
+        "why": "Enduring provocation 'without retaliating' is 'forbearance,' a restraint that can be mistaken for weakness. Their 'error' becomes clear only if she then acted decisively, so 'struck.' 'Capitulated' would prove them right, and 'vacillation' actually is weakness rather than something mistaken for it."
+      },
+      {
+        "q": "Early reviews of the young poet's collection praised its (i) _____ restraint, but a later critic argued that what had been taken for modesty was really (ii) _____: a fear of committing to any strong feeling that might expose her to ridicule.",
+        "blanks": [["flamboyant", "strident", "decorous"], ["arrogance", "diffidence", "exuberance"]],
+        "answer": [2, 1],
+        "why": "'Restraint' read as 'modesty' needs a matching positive word: 'decorous,' since 'flamboyant' and 'strident' clash with restraint. The colon defines the true cause as fear of exposure, which is a lack of confidence: 'diffidence,' not 'arrogance.'"
+      }
+    ],
+    "se": [
+      {
+        "q": "Although he could easily have afforded a life of luxury, the billionaire remained _____, eating simple meals and drinking only water at even the most lavish banquets.",
+        "choices": ["profligate", "abstemious", "sybaritic", "parsimonious", "temperate", "gregarious"],
+        "answer": [1, 4],
+        "why": "Eating simply and drinking only water, even where indulgence was free, means 'abstemious' and 'temperate.' 'Profligate' and 'sybaritic' are a luxury pair that contradicts the details, and 'parsimonious' (stingy with money) has no partner and does not explain his restraint at banquets others paid for."
+      },
+      {
+        "q": "Far from the _____ figure his autobiography portrays, the explorer was by all contemporary accounts a relentless self-promoter who claimed credit for his guides' discoveries.",
+        "choices": ["vainglorious", "boastful", "unassuming", "intrepid", "modest", "reckless"],
+        "answer": [2, 4],
+        "why": "'Far from' sets the self-portrait against the reality of a 'relentless self-promoter,' so the autobiography shows him as 'unassuming' or 'modest.' 'Vainglorious' and 'boastful' are a synonym trap that describes the real man rather than the portrayal."
+      },
+      {
+        "q": "It took a humiliating losing season to _____ the once-arrogant coach, who afterward began soliciting advice from the assistants he had previously ignored.",
+        "choices": ["chasten", "embolden", "humble", "vindicate", "inflame", "exonerate"],
+        "answer": [0, 2],
+        "why": "A humiliating failure that makes an arrogant man start seeking advice has humbled him: 'chasten' and 'humble.' 'Vindicate' and 'exonerate' are a synonym pair with the wrong meaning, and 'embolden' is the opposite."
+      },
+      {
+        "q": "The negotiator's _____ in the face of repeated insults impressed even her adversaries, who had expected her to walk out of the talks on the first day.",
+        "choices": ["indignation", "truculence", "forbearance", "volatility", "impetuosity", "restraint"],
+        "answer": [2, 5],
+        "why": "Her adversaries expected her to walk out, so what impressed them was her patient self-control: 'forbearance' and 'restraint.' 'Volatility' and 'impetuosity' are a loose pair describing the walkout they expected, and 'indignation' or 'truculence' would not impress opponents who were insulting her."
+      }
+    ]
+  },
+  {
+    "n": 6,
+    "title": "Insolence & Irreverence",
+    "icon": "😏",
+    "rule": "These words describe disrespect toward people in authority (insolent, impudent, impertinent, brazen, effrontery, presumptuous) and toward things held sacred or serious (irreverent, impious, sacrilege, profane, flippant, facetious). The GRE tests both the degree and the target of disrespect: a facetious remark is merely joking at the wrong moment, while sacrilege violates something holy. These words are often set against deference, reverence, and solemnity.",
+    "tip": "Impertinent first meant simply 'not pertinent,' and a remark that intrudes where it does not belong soon came to be called rude.",
+    "examples": ["imp[u]dent", "e[ff]rontery", "sacr[i]lege"],
+    "words": [
+      {
+        "w": "insol[e]nt",
+        "pos": "adj",
+        "m": "showing a rude and arrogant lack of respect",
+        "s": "The cadet's insolent reply to the commanding officer, delivered with a smirk in front of the entire company, earned him a week of solitary duty.",
+        "syn": ["impudent", "impertinent", "insubordinate"],
+        "ant": ["respectful", "deferential"],
+        "root": "Latin insolens, 'unaccustomed': contrary to custom, hence overbearing"
+      },
+      {
+        "w": "imp[u]dent",
+        "pos": "adj",
+        "m": "not showing due respect; shamelessly bold",
+        "s": "The journalist's impudent question about the minister's offshore accounts drew gasps from the press corps, which had long avoided the subject.",
+        "syn": ["insolent", "impertinent", "cheeky"],
+        "ant": ["respectful", "polite"],
+        "root": "Latin im- 'not' + pudens 'ashamed': shameless"
+      },
+      {
+        "w": "impert[i]nent",
+        "pos": "adj",
+        "m": "intrusive or presumptuous; improperly forward",
+        "s": "Asked an impertinent question about her salary by a stranger at the gala, the executive replied coolly that she found the topic far less interesting than he did.",
+        "syn": ["impudent", "presumptuous", "insolent"],
+        "ant": ["polite", "respectful", "courteous"],
+        "root": "Latin in- + pertinere: 'not pertaining,' intruding"
+      },
+      {
+        "w": "braz[e]n",
+        "pos": "adj",
+        "m": "bold and shameless, without regard for propriety",
+        "s": "The forger's brazen decision to exhibit his fakes at the very museum whose collection he had copied led directly to his arrest.",
+        "syn": ["shameless", "audacious", "barefaced"],
+        "ant": ["timid", "demure", "sheepish"],
+        "root": "Old English braesen, 'made of brass': hard-faced"
+      },
+      {
+        "w": "e[ff]rontery",
+        "pos": "noun",
+        "m": "insolent or shameless boldness; nerve",
+        "s": "After missing every deadline for six months, the contractor had the effrontery to demand a bonus for completing the project at all.",
+        "syn": ["audacity", "impudence", "gall"],
+        "ant": ["diffidence", "deference"],
+        "root": "Latin effrons, 'shameless': literally 'without a brow' (frons)"
+      },
+      {
+        "w": "presump[tu]ous",
+        "pos": "adj",
+        "m": "overstepping proper bounds; taking liberties",
+        "s": "It seemed presumptuous for a first-year associate to rewrite the senior partner's brief without asking, however much the revisions improved it.",
+        "syn": ["forward", "impertinent", "overbold"],
+        "ant": ["diffident", "deferential", "modest"],
+        "root": "Latin praesumere, 'to take beforehand'"
+      },
+      {
+        "w": "fli[pp]ant",
+        "pos": "adj",
+        "m": "treating serious matters with inappropriate levity or disrespect",
+        "s": "The spokesman's flippant remark that the evacuated residents were 'enjoying a free vacation' forced the company to issue an apology within hours.",
+        "syn": ["glib", "frivolous", "facetious"],
+        "ant": ["serious", "earnest", "solemn"],
+        "root": "Probably from flip: a quick, careless toss"
+      },
+      {
+        "w": "i[rr]everent",
+        "pos": "adj",
+        "m": "lacking proper respect for people or things generally taken seriously",
+        "s": "The comedian's irreverent take on the royal family delighted younger audiences but prompted several outraged letters to the broadcaster from older viewers.",
+        "syn": ["disrespectful", "impious", "iconoclastic"],
+        "ant": ["reverent", "deferential", "worshipful"],
+        "root": "Latin ir- 'not' + revereri 'to stand in awe of'"
+      },
+      {
+        "w": "imp[i]ous",
+        "pos": "adj",
+        "m": "lacking reverence, especially for God or religion",
+        "s": "Galileo's critics branded his support for a sun-centered cosmos as impious, insisting that it contradicted scriptural passages describing a motionless Earth.",
+        "syn": ["irreverent", "ungodly", "blasphemous"],
+        "ant": ["pious", "devout", "reverent"],
+        "root": "Latin im- 'not' + pius 'dutiful, devout'"
+      },
+      {
+        "w": "sacr[i]lege",
+        "pos": "noun",
+        "m": "violation or misuse of something regarded as sacred",
+        "s": "To the purists who had revered the cathedral's silence for centuries, the installation of a gift shop in its crypt amounted to sacrilege.",
+        "syn": ["desecration", "blasphemy", "profanation"],
+        "ant": ["reverence", "veneration", "piety"],
+        "root": "Latin sacrilegus, 'temple robber' (sacer + legere)"
+      },
+      {
+        "w": "prof[a]ne",
+        "pos": "adj",
+        "m": "showing disrespect for sacred things; irreverent or blasphemous",
+        "s": "Visitors who wore beachwear into the shrine were scolded by elderly worshippers who considered such casual dress a profane intrusion on holy ground.",
+        "syn": ["irreverent", "impious", "sacrilegious"],
+        "ant": ["sacred", "reverent", "devout"],
+        "root": "Latin pro 'outside' + fanum 'temple'"
+      },
+      {
+        "w": "face[tious]",
+        "pos": "adj",
+        "m": "treating serious issues with deliberately inappropriate humor",
+        "s": "Her facetious suggestion that the department save money by abolishing the faculty was taken seriously by one literal-minded administrator, to everyone's alarm.",
+        "syn": ["flippant", "jocular", "tongue-in-cheek"],
+        "ant": ["earnest", "solemn", "grave"],
+        "root": "Latin facetus, 'witty'; like abstemious, has a-e-i-o-u in order"
+      }
+    ],
+    "tc": [
+      {
+        "q": "Though the student insisted he had meant no disrespect, the dean considered his remark that the honor code was 'a quaint relic best ignored' an act of sheer _____.",
+        "blanks": [["deference", "diffidence", "sycophancy", "effrontery", "equanimity"]],
+        "answer": [3],
+        "why": "'Though he meant no disrespect' implies the dean saw disrespect, and openly dismissing the honor code to a dean is shameless boldness: 'effrontery.' 'Deference' and 'sycophancy' are the opposite, and 'diffidence' means timidity."
+      },
+      {
+        "q": "The satirist's admirers praised her as refreshingly _____, but her detractors argued that her mockery of sacred texts went beyond healthy skepticism into mere provocation.",
+        "blanks": [["irreverent", "pious", "sanctimonious", "dogmatic", "credulous"]],
+        "answer": [0],
+        "why": "Both sides describe the same trait, mockery of sacred things, and differ only in whether it is valuable, so the admirers call her 'irreverent.' 'Pious' and 'sanctimonious' contradict the mockery, and 'credulous' contradicts her 'skepticism.'"
+      },
+      {
+        "q": "The new ambassador's predecessor had been so (i) _____ toward the host government, deferring to its every wish, that her own frank but courteous criticisms were initially denounced as (ii) _____ by officials unaccustomed to hearing any dissent at all.",
+        "blanks": [["truculent", "obsequious", "indifferent"], ["deferential", "incoherent", "impertinent"]],
+        "answer": [1, 2],
+        "why": "'Deferring to its every wish' defines (i) as 'obsequious.' Officials spoiled by that servility would brand even courteous criticism as disrespectful: 'impertinent.' 'Truculent' contradicts 'deferring,' and 'deferential' is exactly what her criticism was not."
+      },
+      {
+        "q": "Critics who dismissed the playwright's comedies as merely (i) _____ missed the moral seriousness beneath their jokes: the very scenes that seem to treat death and faith most lightly are, on closer reading, the plays' most (ii) _____ meditations on mortality.",
+        "blanks": [["flippant", "solemn", "didactic"], ["frivolous", "earnest", "derivative"]],
+        "answer": [0, 1],
+        "why": "The critics' charge is that the plays 'treat death and faith lightly,' which is 'flippant,' and the rebuttal reverses it: these scenes are actually the most 'earnest.' 'Solemn' and 'didactic' contradict the dismissal of the plays as mere jokes, and 'frivolous' repeats the critics' error."
+      }
+    ],
+    "se": [
+      {
+        "q": "Having missed three consecutive deadlines, the consultant nevertheless had the _____ to complain that the client was being unreasonably demanding.",
+        "choices": ["humility", "effrontery", "foresight", "diffidence", "gall", "courtesy"],
+        "answer": [1, 4],
+        "why": "'Nevertheless' signals shameless nerve in complaining after failing repeatedly: 'effrontery' and 'gall.' 'Humility' and 'diffidence' are a pair that contradicts the complaint, and 'foresight' fits grammatically but has no partner."
+      },
+      {
+        "q": "The anchor's _____ quip about the hurricane's death toll, intended as gallows humor, provoked a storm of complaints and an on-air apology the next evening.",
+        "choices": ["flippant", "somber", "facetious", "tactful", "incisive", "grave"],
+        "answer": [0, 2],
+        "why": "A joke about deaths that required an apology was inappropriately light: 'flippant' and 'facetious.' 'Somber' and 'grave' are a synonym pair that clashes with 'quip' and 'humor,' and 'tactful' contradicts the complaints."
+      },
+      {
+        "q": "To the devout villagers, the archaeologists' decision to excavate the saint's tomb seemed not a scientific inquiry but an act of _____.",
+        "choices": ["piety", "devotion", "sacrilege", "curiosity", "diligence", "desecration"],
+        "answer": [2, 5],
+        "why": "Devout believers would see digging up a saint's tomb as a violation of something holy: 'sacrilege' and 'desecration.' 'Piety' and 'devotion' are a pair describing the villagers, not the excavation, and 'curiosity' merely restates 'scientific inquiry,' which the sentence contrasts with the blank."
+      },
+      {
+        "q": "Unaccustomed to being questioned by subordinates, the general regarded the lieutenant's polite request for clarification as _____, and he had the young officer reassigned.",
+        "choices": ["obsequious", "servile", "insolent", "perceptive", "impudent", "judicious"],
+        "answer": [2, 4],
+        "why": "A general who is unused to being questioned, and who punishes the questioner, saw even a polite question as disrespect: 'insolent' and 'impudent.' 'Obsequious' and 'servile' are a synonym trap that matches the word 'polite' but not the general's reaction."
+      }
+    ]
+  }
+]

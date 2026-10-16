@@ -1,0 +1,9 @@
+# local voice-model setup (re-create with the steps in README.md)
+tools/.venv/
+tools/models/
+# wrangler cache
+.wrangler/
+# partially written clips
+*.tmp.mp3
+.DS_Store
+__pycache__/
